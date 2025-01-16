@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        limeCustom: "#B9FF66", // Nome personalizado para a cor
+        grayCustom: "#292A32"
+      },
+      fontFamily: {
+        SpaceGrotesk: ['"Space Grotesk"', 'sans-serif'], // Define como padrão para fontes sans-serif
+      },
+    },
   },
   plugins: [],
 }
