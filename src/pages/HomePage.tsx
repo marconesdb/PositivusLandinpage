@@ -7,6 +7,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <Navbar/>
+      <div className="h-28" /> {/* Elemento espaçador */}
       <HeroSection />
       <Footer />
     </div>
