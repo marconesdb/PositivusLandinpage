@@ -58,15 +58,17 @@ const HeroSection: React.FC<HeroProps> = ({
       {/* Logos dos clientes */}
       <div className="mt-16">
         <div className="flex max-w-7xl mx-auto gap-8 justify-between">
-          {companies.map((company) => (
-            <div key={company.name} className="flex justify-center">
-              <img
-                src={company.src}
-                alt={`${company.name} logo`}
-                className="h-12 object-contain"
-              />
-            </div>
-          ))}
+          <div className="grid grid-cols-2 sm:flex sm:flex-row gap-8 w-full justify-between">
+            {companies.map((company) => (
+              <div key={company.name} className="flex justify-center">
+                <img
+                  src={company.src}
+                  alt={`${company.name} logo`}
+                  className="h-8 sm:h-12 object-contain"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
