@@ -21,6 +21,7 @@ export default {
       screens: {
         xs: '360px', // Defina o valor conforme necessário
       },
+  
     },
   },
   plugins: [],
