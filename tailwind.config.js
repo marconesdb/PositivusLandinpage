@@ -18,6 +18,9 @@ export default {
       fontFamily: {
         SpaceGrotesk: ['"Space Grotesk"', 'sans-serif'], // Define como padrão para fontes sans-serif
       },
+      screens: {
+        xs: '360px', // Defina o valor conforme necessário
+      },
     },
   },
   plugins: [],
