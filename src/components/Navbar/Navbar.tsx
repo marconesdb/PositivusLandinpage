@@ -26,19 +26,19 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto  mt-8 sm:px-6 lg:px-1">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center px-2">
+          <div className="flex-shrink-0 flex items-center ">
             <a href="/" className="flex items-center">
               <img 
                 src={logo}
                 alt="Logo" 
-                className="h-8 w-auto sm:h-10"
+                className="h-8 w-auto sm:h-10 xs:px-2"
               />
             </a>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center px-3">
-            <div className="flex items-center space-x-2 md:space-x-4 lg:space-x-8">
+          <div className="hidden md:flex items-center px-2">
+            <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-8">
               {navItems.map((item) => (
                 <a
                   key={item.label}
@@ -48,7 +48,7 @@ const Navbar = () => {
                   {item.label}
                 </a>
               ))}
-              <button className="ml-2 md:ml-4 px-3 md:px-4 lg:px-6 py-2 lg:py-3 text-sm md:text-base lg:text-lg xl:text-xl font-medium text-gray-700 border border-gray-900 rounded-lg hover:bg-gray-900 hover:text-white transition-colors whitespace-nowrap">
+              <button className=" ml-2 md:ml-4 px-3 md:px-1 lg:px-6 py-2 lg:py-3 text-sm md:text-base lg:text-lg xl:text-xl font-medium text-gray-700 border border-gray-900 rounded-lg hover:bg-gray-900 hover:text-white transition-colors whitespace-nowrap">
                 Request a quote
               </button>
             </div>
