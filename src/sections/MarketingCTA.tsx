@@ -3,7 +3,7 @@ import imgMarketingCTA from '../assets/MarketingCTA.svg'
 const MarketingCTA = () => {
   return (
     <div className="mt-20 w-full max-w-7xl mx-auto px-4 ">
-      <div className="bg-gray-100 md:h-[355px] rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center justify-between relative h-[350px] md:h-[280px]">
+      <div className="sm:items-center sm:justify-center bg-gray-100 md:h-[355px] rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center justify-between relative h-[350px]">
         {/* Content Section */}
         <div className="z-10 md:max-w-[45%]">
           <h2 className="text-2xl md:text-3xl font-medium font-SpaceGrotesk mb-4">
