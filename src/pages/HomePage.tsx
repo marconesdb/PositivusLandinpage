@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer';
 import HeroSection from '../sections/HeroSection';
 import ServicesSection from '../sections/ServicesSection';
 import MarketingCTA from '../sections/MarketingCTA';
+import CaseStudiesSection from '../sections/CaseStudiesSection';
 
 const HomePage: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage: React.FC = () => {
       <HeroSection />
       <ServicesSection />
       <MarketingCTA />
+      <CaseStudiesSection />
       <Footer />
     </div>
   );

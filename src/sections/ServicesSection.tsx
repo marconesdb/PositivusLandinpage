@@ -10,7 +10,7 @@ import Illustration06 from '../assets/Illustration-06.png';
 
 interface ServiceCardProps {
   title: string;
-  bgColor?: 'light' | 'dark' | 'green' | string;
+  bgColor?: 'light' | 'black' | 'green' | string;
   rightImage?: string;
   learnMoreIcon?: string;
 }
@@ -23,8 +23,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 }) => {
   const getBgColor = () => {
     switch (bgColor) {
-      case 'dark':
-        return 'bg-gray-900';
+      case 'black':
+        return 'bg-black';
       case 'green':
         return 'bg-lime-300';
       case 'light':
@@ -35,12 +35,12 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   };
 
   const getTextColor = () => {
-    return bgColor === 'dark' ? 'text-white' : 'text-black';
+    return bgColor === 'black' ? 'text-white' : 'text-black';
   };
 
   const getTitleBgColor = () => {
     switch (bgColor) {
-      case 'dark':
+      case 'black':
         return 'bg-white';
       case 'green':
         return 'bg-white';
@@ -49,7 +49,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     }
   };
 
-  const shadowClass = bgColor === 'dark' ? '' : 'shadow-[0px_8px_0px_rgba(0,0,0,10.5)]';
+  const shadowClass = bgColor === 'black' ? '' : 'shadow-[0px_8px_0px_rgba(0,0,0,10.5)]';
 
   const customStyles = bgColor.startsWith('#')
     ? { backgroundColor: bgColor, boxShadow: '0px 8px 0px rgba(0, 0, 0, 10.5)' }
@@ -128,7 +128,7 @@ const ServicesSection = () => {
     },
     {
       title: 'Social Media Marketing',
-      bgColor: 'dark',
+      bgColor: 'black',
       rightImage: Illustration03,
       learnMoreIcon: ArrowWhite,
     },
@@ -146,7 +146,7 @@ const ServicesSection = () => {
     },
     {
       title: 'Analytics and Tracking',
-      bgColor: 'dark',
+      bgColor: 'black',
       rightImage: Illustration06,
       learnMoreIcon: ArrowWhite,
     },
@@ -155,7 +155,7 @@ const ServicesSection = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-4 md:py-8">
       <div className="mb-4 md:mb-8 flex flex-col md:flex-row">
-        <h2 className="inline-block bg-lime-300 px-3 py-1 rounded-md text-xl md:text-[30px] font-medium mb-3 md:mb-4 font-SpaceGrotesk">
+        <h2 className="mr-8 bg-lime-400 text-black font-medium  px-2 rounded-lg text-[40px] font-SpaceGrotesk">
           Services
         </h2>
         <p className="text-black md:ml-8 text-sm md:text-lg font-SpaceGrotesk font-medium max-w-[580px]">

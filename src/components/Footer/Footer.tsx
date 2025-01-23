@@ -14,7 +14,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-900 text-white py-4 sm:py-8 px-4 sm:px-8 mt-96 max-w-7xl mx-auto rounded-t-[40px]">
+    <footer className="bg-black text-white py-4 sm:py-8 px-4 sm:px-8 mt-96 max-w-7xl mx-auto rounded-t-[40px]">
       <div>
         {/* Top Section */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6 mb-8 sm:mb-12">

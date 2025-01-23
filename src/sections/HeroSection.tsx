@@ -37,7 +37,7 @@ const HeroSection: React.FC<HeroProps> = ({
           </p>
           <button
             onClick={onConsultationClick}
-            className="bg-gray-900 text-white px-8 py-4 rounded-lg text-[20px] font-normal font-SpaceGrotesk  hover:bg-gray-800 transition-colors"
+            className="bg-black text-white px-8 py-4 rounded-lg text-[20px] font-normal font-SpaceGrotesk  hover:bg-gray-800 transition-colors"
           >
             Book a consultation
           </button>
