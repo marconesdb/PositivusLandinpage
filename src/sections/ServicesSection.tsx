@@ -155,7 +155,7 @@ const ServicesSection = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-4 md:py-8">
       <div className="mb-4 md:mb-8 flex flex-col md:flex-row">
-        <h2 className="mr-8 bg-lime-400 text-black font-medium  px-2 rounded-lg text-[40px] font-SpaceGrotesk">
+        <h2 className="mr-8 bg-lime-300 text-black font-medium  px-2 rounded-lg text-[40px] font-SpaceGrotesk">
           Services
         </h2>
         <p className="text-black md:ml-8 text-sm md:text-lg font-SpaceGrotesk font-medium max-w-[580px]">
