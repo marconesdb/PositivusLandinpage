@@ -6,6 +6,7 @@ import ServicesSection from '../sections/ServicesSection';
 import MarketingCTA from '../sections/MarketingCTA';
 import CaseStudiesSection from '../sections/CaseStudiesSection';
 import WorkingProcessSection from '../sections/WorkingProcessSection';
+import TeamSection from '../sections/TeamSection';
 
 const HomePage: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage: React.FC = () => {
       <MarketingCTA />
       <CaseStudiesSection />
       <WorkingProcessSection />
+      <TeamSection />
       <Footer />
     </div>
   );
