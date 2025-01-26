@@ -14,8 +14,8 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-black text-white py-4 sm:py-8 px-4 sm:px-8 mt-96 max-w-7xl mx-auto rounded-t-[40px]">
-      <div>
+    <footer className="text-white   sm:px-4 mt-36  mx-auto   max-w-7xl">
+      <div className='bg-black  sm:py-8 sm:px-8 rounded-t-[40px]'>
         {/* Top Section */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6 mb-8 sm:mb-12">
           <div className="flex items-center space-x-2 w-full sm:w-auto justify-center sm:justify-start">
@@ -75,7 +75,7 @@ const Footer = () => {
               </div>
               <button
                 type="submit"
-                className="bg-lime-400 text-black w-full sm:w-auto lg:w-auto px-2 sm:px-6 py-3 sm:py-2 h-12 sm:h-16 rounded-xl font-SpaceGrotesk hover:bg-lime-500 transition-colors whitespace-nowrap text-base sm:text-[20px]"
+                className="bg-lime-400 text-black w-full sm:w-auto lg:w-auto px-2 sm:px-4 py-3 sm:py-2 h-12 sm:h-16 rounded-xl font-SpaceGrotesk hover:bg-lime-500 transition-colors whitespace-nowrap text-base sm:text-[18px]"
               >
                 Subscribe to news
               </button>
