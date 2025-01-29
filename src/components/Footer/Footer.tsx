@@ -19,7 +19,7 @@ const Footer = () => {
         {/* Top Section */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6 mb-8 sm:mb-12">
           <div className="flex items-center space-x-2 w-full sm:w-auto justify-center sm:justify-start">
-            <img src={LogoFooter} alt="Logo Footer" className="h-5 sm:h-6"/>
+            <img src={LogoFooter} alt="Logo Footer" className="h-5 sm:h-6 mt-4"/>
           </div>
           
           {/* Navigation - Stack on mobile */}
