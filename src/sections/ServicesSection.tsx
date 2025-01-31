@@ -158,7 +158,7 @@ const ServicesSection = () => {
         <h2 className="mr-8 bg-lime-300 text-black font-medium  px-2 rounded-lg text-[40px] font-SpaceGrotesk">
           Services
         </h2>
-        <p className="text-black md:ml-8 text-sm md:text-lg font-SpaceGrotesk font-medium max-w-[580px]">
+        <p className="text-black md:ml-8 text-lg font-SpaceGrotesk font-medium max-w-[580px]">
           At our digital marketing agency, we offer a range of services to help
           businesses grow and succeed online. These services include:
         </p>

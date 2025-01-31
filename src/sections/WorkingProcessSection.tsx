@@ -35,7 +35,7 @@ const WorkingProcessSection: React.FC = () => {
       </div> */}
 
 <div className="flex justify-start items-center mb-8 max-sm:flex-col max-sm:items-center max-sm:text-center">
-  <h1 className="font-medium bg-lime-300 px-1 rounded-lg text-[40px] font-SpaceGrotesk max-sm:text-2xl">
+  <h1 className="font-medium bg-lime-300 px-1 rounded-lg text-[40px] font-SpaceGrotesk">
     Our Working <span>Process</span>
   </h1>
   <p className="text-lg ml-8 font-SpaceGrotesk max-sm:ml-0 max-sm:mt-2">
