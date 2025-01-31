@@ -50,44 +50,44 @@ const Team: React.FC = () => {
   return (
     <div className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4">
-        <div className="flex items-start space-x-4">
-          <h2 className="text-[40px] font-SpaceGrotesk font-medium text-black bg-lime-300 px-2 rounded-lg">Team</h2>
-          <p className="text-lg text-black font-SpaceGrotesk">
-            Meet the skilled and experienced team behind our <br /> successful digital marketing strategies
-          </p>
-        </div>
-
+        <div className="flex flex-col items-center text-center gap-2 sm:flex-row sm:items-start sm:text-left sm:gap-4">
+        <h2 className="text-[40px] font-SpaceGrotesk font-medium text-black bg-lime-300 px-2 rounded-lg">
+          Team
+        </h2>
+        <p className="text-lg text-black font-SpaceGrotesk">
+          Meet the skilled and experienced team behind our <br className="hidden sm:block" />
+          successful digital marketing strategies
+        </p>
+      </div>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member) => (
-            <div key={member.name} className="bg-gray-100 p-6 border border-black rounded-[40px] shadow-[0px_8px_0px_rgba(0,0,0,10.5)]">
+            <div key={member.name} className="bg-gray-100 p-4 xs:p-6 border border-black rounded-[40px] shadow-[0px_8px_0px_rgba(0,0,0,10.5)]">
               <div className="flex items-start space-x-4">
-                {/* Imagem do membro */}
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="h-32 w-32 object-contain"
+                  className="h-16 w-16 xs:h-32 xs:w-32 object-contain"
                 />
-                {/* Detalhes do membro */}
-                <div className="flex-1 mt-20">
-                  <h3 className="text-lg font-medium text-black">{member.name}</h3>
-                  <p className="text-sm text-black font-SpaceGrotesk">{member.position}</p>
+                <div className="flex-1 mt-8 xs:mt-20 min-w-0">
+                  <h3 className="text-base xs:text-lg font-medium text-black truncate whitespace-nowrap">{member.name}</h3>
+                  <p className="text-xs xs:text-sm text-black font-SpaceGrotesk truncate">{member.position}</p>
                 </div>
-                {/* Ícone do LinkedIn */}
                 <img
-                  className="mt-2 self-start translate-y-[-8px]"
                   src={Linkedin}
                   alt="LinkedIn"
+                  className="mt-2 self-start translate-y-[-8px] w-6 h-6 xs:w-auto xs:h-auto flex-shrink-0"
                 />
               </div>
-              <div className="mt-8 w-full h-[1px] bg-black mb-4"></div>
-              <p className="mt-4 text-black font-SpaceGrotesk">{member.description}</p>
+              <div className="mt-4 xs:mt-8 w-full h-[1px] bg-black mb-4"></div>
+              <p className="mt-2 xs:mt-4 text-xs xs:text-base text-black font-SpaceGrotesk">{member.description}</p>
             </div>
           ))}
         </div>
 
-        {/* Botão à direita */}
-        <div className="flex justify-end mt-10">
-          <button className="bg-black text-white px-16 py-4 rounded-xl hover:bg-gray-800 transition-colors text-[20px] font-normal font-SpaceGrotesk">
+        <div className="flex justify-center sm:justify-end mt-10">
+
+        <button className="w-[100%] sm:w-auto bg-black text-white px-8 sm:px-16 py-4 rounded-xl hover:bg-gray-800 transition-colors text-base sm:text-[20px] font-normal font-SpaceGrotesk">
+
             See all team
           </button>
         </div>
