@@ -7,11 +7,11 @@ const steps = [
     description:
       'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
   },
-  { number: '02', title: 'Research and Strategy Development', description: '' },
-  { number: '03', title: 'Implementation', description: '' },
-  { number: '04', title: 'Monitoring and Optimization', description: '' },
-  { number: '05', title: 'Reporting and Communication', description: '' },
-  { number: '06', title: 'Continual Improvement', description: '' },
+  { number: '02', title: 'Research and Strategy Development', description: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.' },
+  { number: '03', title: 'Implementation', description: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.' },
+  { number: '04', title: 'Monitoring and Optimization', description: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.' },
+  { number: '05', title: 'Reporting and Communication', description: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.' },
+  { number: '06', title: 'Continual Improvement', description: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.' },
 ];
 
 const WorkingProcessSection: React.FC = () => {
@@ -24,25 +24,15 @@ const WorkingProcessSection: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 p-4 mt-20">
       {/* Container flex para o título e subtítulo */}
-      {/* <div className="flex justify-start items-center mb-8 max-sm:flex-col max-sm:items-start">
-        <h1 className="font-medium bg-lime-300 px-1 rounded-lg text-[40px] font-SpaceGrotesk max-sm:text-2xl">
-          Our Working Process
+      <div className="flex justify-start items-center mb-8 max-sm:flex-col max-sm:items-center max-sm:text-center">
+        <h1 className="font-medium bg-lime-300 px-1 rounded-lg text-[40px] font-SpaceGrotesk">
+          Our Working <span>Process</span>
         </h1>
         <p className="text-lg ml-8 font-SpaceGrotesk max-sm:ml-0 max-sm:mt-2">
           Step-by-Step Guide to Achieving <br />
           Your Business Goals
         </p>
-      </div> */}
-
-<div className="flex justify-start items-center mb-8 max-sm:flex-col max-sm:items-center max-sm:text-center">
-  <h1 className="font-medium bg-lime-300 px-1 rounded-lg text-[40px] font-SpaceGrotesk">
-    Our Working <span>Process</span>
-  </h1>
-  <p className="text-lg ml-8 font-SpaceGrotesk max-sm:ml-0 max-sm:mt-2">
-    Step-by-Step Guide to Achieving <br />
-    Your Business Goals
-  </p>
-</div>
+      </div>
       {steps.map((step, index) => (
         <div key={index} className="mb-10">
           <div

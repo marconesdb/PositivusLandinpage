@@ -9,7 +9,7 @@ export default {
       colors: {
         limeCustom: "#B9FF66", // Nome personalizado para a cor
         grayCustom: "#292A32",
-
+        slateCustom900: '#191A23',
         greyCustom: "#F3F3F3"
       },
       boxShadow: {
