@@ -160,7 +160,7 @@ const Carousel: React.FC = () => {
           <div className="flex flex-col items-center">
             {/* Speech Bubble Container */}
             <div className="relative w-full mb-8">
-  <div className="relative bg-[#1B1B1B] rounded-[32px]">
+  <div className="relative bg-slateCustom900 rounded-[32px]">
     {/* Border overlay */}
     <div className="absolute inset-0 rounded-[32px] border-2 border-[#B1FF6C]" />
     {/* Content */}
