@@ -1,30 +1,64 @@
-# React + TypeScript + Vite
+# Positivus - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Positivus Landing Page](./public/Desktop.png)
 
-Currently, two official plugins are available:
+## Descrição
+A **Positivus** é uma landing page moderna e responsiva, projetada para destacar serviços de marketing digital. 
+Ela foi desenvolvida utilizando **React.js (Vite), TypeScript e Tailwind CSS**, garantindo alta performance, tipagem segura e um design estiloso e responsivo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- **React.js (Vite)** - Framework para construção da interface
+- **TypeScript** - Superset do JavaScript para tipagem estática
+- **Tailwind CSS** - Framework CSS utilitário para estilização
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Estrutura do Projeto
+```
+LandingPagesPositivus/
+│-- src/
+│   ├── components/   # Componentes reutilizáveis
+│   ├── pages/        # Páginas principais
+│   ├── assets/       # Imagens e recursos estáticos
+│   ├── App.tsx       # Componente principal
+│   ├── main.tsx      # Ponto de entrada do aplicativo
+│-- public/           # Arquivos públicos
+│-- package.json      # Configuração do projeto e dependências
+│-- tailwind.config.js # Configuração do Tailwind CSS
+│-- tsconfig.json     # Configuração do TypeScript
+│-- vite.config.ts    # Configuração do Vite
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalação e Execução
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/marconesdb/PositivusLandinpage
+   ```
+
+2. Acesse o diretório do projeto:
+   ```sh
+   cd LandingPagesPositivus
+   ```
+
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   ```
+
+5. Acesse no navegador: [http://localhost:5173](http://localhost:5173)
+
+## Autor
+- **Marcone Silva de Brito**
+- [Portfólio](#) *(https://layout-novo-portfolio.vercel.app/)*
+- [Figma](#) *(https://www.figma.com/community/file/1230604708032389430)*
+
+
+## Licença
+Este projeto é licenciado sob a **MIT License**. Sinta-se livre para usá-lo e modificá-lo conforme necessário.
+
+---
+Desenvolvido com 💚 por Marcone Silva de Brito 🚀
